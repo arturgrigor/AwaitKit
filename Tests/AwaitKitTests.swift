@@ -31,7 +31,7 @@ import XCTest
 class AwaitKitTests: XCTestCase {
   func testExcludeSameQueue() {
     let promise = Promise { resolve, reject in
-      resolve()
+      resolve(())
     }
 
     XCTAssertThrowsError(try DispatchQueue.main.ak.await(promise))
@@ -41,7 +41,7 @@ class AwaitKitTests: XCTestCase {
     let expect = expectation(description: "Async should fulfill")
 
     let promise = Promise { resolve, reject in
-      resolve()
+      resolve(())
     }
 
     let result: Promise<Void> = async {
@@ -59,7 +59,7 @@ class AwaitKitTests: XCTestCase {
     let expect = expectation(description: "Async should fulfill")
 
     let promise = Promise { resolve, reject in
-      resolve()
+      resolve(())
     }
 
     let result: Promise<Void> = async {
