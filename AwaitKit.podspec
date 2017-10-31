@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'AwaitKit'
-  s.version          = '3.1.0'
+  s.version          = '3.1.1'
   s.license          = 'MIT'
   s.summary          = 'The ES8 Async/Await control flow for Swift '
   s.homepage         = 'https://github.com/yannickl/AwaitKit.git'
@@ -10,7 +10,7 @@ Pod::Spec.new do |s|
   s.screenshot       = 'http://yannickloriot.com/resources/AwaitKit-Arista-Banner.png'
 
   s.ios.deployment_target     = '8.0'
-  s.osx.deployment_target     = '10.10'
+  s.osx.deployment_target     = '10.11'
   s.watchos.deployment_target = '2.0'
   s.tvos.deployment_target    = '9.0'
 
