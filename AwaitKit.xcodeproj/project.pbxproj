@@ -71,6 +71,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		FE36908A1FA8749100831516 /* AwaitKit.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; path = AwaitKit.podspec; sourceTree = "<group>"; };
+		FE36908F1FA8749100831516 /* Cartfile */ = {isa = PBXFileReference; lastKnownFileType = text; path = Cartfile; sourceTree = "<group>"; };
+		FE3690901FA8749100831516 /* Package.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Package.swift; sourceTree = "<group>"; };
 		FE41FCD21F46D9A700CD2271 /* AwaitKit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AwaitKit.swift; sourceTree = "<group>"; };
 		FE41FCD31F46D9A700CD2271 /* AwaitKitExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AwaitKitExtension.swift; sourceTree = "<group>"; };
 		FE41FCD41F46D9A700CD2271 /* DispatchQueue+Async.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "DispatchQueue+Async.swift"; sourceTree = "<group>"; };
@@ -143,6 +146,9 @@
 		FEF014141E39E12200C4A60B = {
 			isa = PBXGroup;
 			children = (
+				FE36908A1FA8749100831516 /* AwaitKit.podspec */,
+				FE36908F1FA8749100831516 /* Cartfile */,
+				FE3690901FA8749100831516 /* Package.swift */,
 				FE41FCD11F46D9A700CD2271 /* Sources */,
 				FE41FCD71F46D9A700CD2271 /* Tests */,
 				FEF0141F1E39E12200C4A60B /* Products */,
